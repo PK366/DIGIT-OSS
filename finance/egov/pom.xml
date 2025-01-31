@@ -153,7 +153,7 @@
         <!-- Database configuration for PostgreSQL -->  
         <db.driver>org.postgresql.Driver</db.driver>  <!-- PostgreSQL driver -->  
         <db.url>jdbc:postgresql://localhost:5432/egov_ms</db.url> <!-- Change to your DB name -->  
-        <db.user>egovdbuser</db.user> <!-- Your DB username -->  
+        <db.user>egovuser123</db.user> <!-- Your DB username -->  
         <db.password>postgres@4321</db.password> <!-- Your DB password -->  
     
         <disable.drop.db>true</disable.drop.db>
