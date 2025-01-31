@@ -150,10 +150,12 @@
         <build.number>${timestamp}</build.number>
         <app.version>${project.version}</app.version>
         <versioneye.key/>
-        <db.driver/>
-        <db.url/>
-        <db.user/>
-        <db.password/>
+        <!-- Database configuration for PostgreSQL -->  
+        <db.driver>org.postgresql.Driver</db.driver>  <!-- PostgreSQL driver -->  
+        <db.url>jdbc:postgresql://localhost:5432/egov_ms</db.url> <!-- Change to your DB name -->  
+        <db.user>egovdbuser</db.user> <!-- Your DB username -->  
+        <db.password>postgres@4321</db.password> <!-- Your DB password -->  
+    
         <disable.drop.db>true</disable.drop.db>
         <!-- Application server provided dependency versions -->
         <hibernate-version>5.1.10.Final</hibernate-version>
